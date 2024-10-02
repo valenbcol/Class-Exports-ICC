@@ -1,25 +1,16 @@
 # Importamos los paquetes a utilizar
-# 
+
 import numpy as np
 import pandas as pd
 import os
 os.getcwd()
 """
-
     Esta clase toma el archivo enviado de Exportaciones y subasigna funciones segun
     se desea agregando por pais o por rubro generando un respectivo metodo para cada uno.
     Se debe insertar dos parametros al iniciar la clase, la ubicacion del archivo en el servidor
     con un "r" antepuesto al string; y como segundo parametro se debe poner el nombre de la columna que
     se quiere agregar a la base, definido como "mes - año" por ejemplo: "Enero - 2021".
-    En caso de que el mes ya se haya computado tirara error el metodo.
 
-
-
-
-    COMENTARIOS DE PROGRAMADOR:
-    Agregar ValueError en caso de repetir mes al inicio de la funcion
-    Agregar algun sanity check
-    Agregar graficar facilmente para publicar con plotly
 """
 
 
